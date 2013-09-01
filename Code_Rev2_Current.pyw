@@ -1,5 +1,5 @@
+#Revision 2
 # -*- coding: utf-8 -*-
-# Created By MAK
 import urllib2, re, tkMessageBox, Tkinter
 response = urllib2.urlopen('http://weather.yahoo.com/')
 website = response.read()
