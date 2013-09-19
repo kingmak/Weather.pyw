@@ -9,7 +9,7 @@ def core():
      TodayTemp = re.search(regex, website).group()
      TodayHi = re.search(regexHI, website).group()
      TodayLow = re.search(regexLOW, website).group()
-     msg = ('Today\'s Temperature:\n' + TodayTemp + ' ' + degree + 'F' +
+     msg = ('Temperature Right Now:\n' + TodayTemp + ' ' + degree + 'F' +
              '\n\nToday\'s Expected High:\n' + TodayHi + ' ' + degree + 'F' +
              '\n\nToday\'s Expected Low:\n' + TodayLow + ' ' + degree + 'F' +
              '\n\nSource:\nweather.yahoo.com\n\nAuthor: KingMak')
