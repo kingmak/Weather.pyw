@@ -19,4 +19,4 @@ try:
 
 except Exception:
      regex = r'(?<=<div class="day-temp-current temp-f ">).*(?=&deg;<span class="unit">F</span><a href="#toggle" class="dtime">&deg;C</a>)'
-     core()
+     core() 
